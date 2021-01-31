@@ -5,14 +5,18 @@
 
 Adaptado por: Rommel Contreras - _rommeljose@gmail.com_
 
-> Este es un módulo de biblioteca de lenguaje C de uso general para la familia de
-> microcontroladores PIC18xxx. Este módulo configura una pantalla LCD externa, 
-> basada en el controlador **LCD Hitachi HD44780** o equivalente. El 
-> módulo configura los pines de E/S del microcontrolador, configura la pantalla
-> LCD para modi 4 o de 8 bits y proporciona un API para diferentes funciones del LCD 
->> **ver:** [Como_Usar_librería.pdf](.doc/guia_de_uso.pdf).
+> Esta es una librería en lenguaje C (XC8), de uso general para la familia de
+> microcontroladores PIC18xxx; pero debe funcionar para cualquier PIC. 
+> Este módulo configura una pantalla LCD externa, basada en el controlador **LCD Hitachi HD44780** 
+> o equivalente. El módulo configura los pines de E/S del microcontrolador, configura la pantalla
+> LCD para los modos: 4 o de 8 bits, y proporciona un API para diferentes funciones o comandos del LCD 
+>> **ver:** [Como_Usar_librería.pdf](https://github.com/rommeljose/LCD_2x16_con_XC8/blob/master/Generico_simple_LCD.X/Lib_mias_all/Guia_de_uso_libreria.pdf)
+
+>> **Librería en:** [`.Lib_mias_all\microchip_LCD`](./Generico_simple_LCD.X/Lib_mias_all/microchip_LCD)
+
+LCD 2x16 tipo Hitachi HD44780---> ![LCD 2x16 tipo HD44780](./Generico_simple_LCD.X/Lib_mias_all/LCD2x16.jpg)
   
-## La Librería dmite las siguientes características:
+## La Librería admite las siguientes características:
 
 •	Seleccionar la interfaz entre el módulo LCD y el microcontrolador, es decir, si se debe seleccionar Interfaz de 8 o 4 bits.
 
@@ -56,7 +60,7 @@ Adaptado por: Rommel Contreras - _rommeljose@gmail.com_
 
 > Las versiones pre compiladas de estas funciones utilizan asignaciones de pines predeterminadas
 > que se pueden cambiar redefiniendo las siguientes asignaciones de macros en el archivo xlcd.h, 
-> que se encuentra en el subdirectorio: ...\Generico_simple_LCD.X\Lib_mias_all\microchip_LCD. 
+> que se encuentra en el subdirectorio: `.\Generico_simple_LCD.X\Lib_mias_all\microchip_LCD`. 
 > El archivo de encabezado `xlcd.h`, hay que incluirlo en el proyecto.
 
 ***
@@ -80,7 +84,7 @@ void main(void)
     {
         // Add your application code
 
-    while (BusyXLCD()); //wait untill LCD controller is busy  
+    while (BusyXLCD()); // Esperar, si el LCD esta ocupado  
     SetDDRamAddr(0x80); // Principio area visible LCD
     
     while( BusyXLCD() ); 
@@ -94,8 +98,8 @@ void main(void)
     putrsXLCD(" MONAGAS, Venz. ");
     __delay_ms(2000);
     
-    while (BusyXLCD()); // Wait if LCD busy
-    WriteCmdXLCD(0x01); // Clear display
+    while (BusyXLCD()); // Esperar, si el LCD esta ocupado 
+    WriteCmdXLCD(0x01); // Limpia la pantalla del LCD
 
     }
 }
