@@ -1,13 +1,13 @@
 /**
   Generated Main Source File
 
-  Company:
+  Company: RJCG-Personal (Programa de muestra)
     Microchip Technology Inc.
 
-  File Name:
+  File Name: Rommel J. Contreras G.
     main.c
 
-  Summary:
+  Summary: Uso del LCD Hitachi HD44780 con un PIC 18 y el compilador XC8
     This is the main file generated using PIC10 / PIC12 / PIC16 / PIC18 MCUs
 
   Description:
@@ -53,7 +53,7 @@ void main(void)
     // Initialize the device
     SYSTEM_Initialize();
    
-    LCD_inicio();
+    LCD_inicio();  // No se requiere configurar los pines del LCD en el MCC
    
     saludo();
 
@@ -77,22 +77,22 @@ void main(void)
     {
         // Add your application code
 
-    while (BusyXLCD()); //wait untill LCD controller is busy  
+    while (BusyXLCD()); // Esperar, si el LCD esta ocupado  
     SetDDRamAddr(0x80); // Principio area visible LCD
     
     while( BusyXLCD() ); 
-    putrsXLCD("Rio Caribe ");
+    putrsXLCD("Caripito ");
     __delay_ms(2000);
 
     while (BusyXLCD());
     SetDDRamAddr(0xC0); // Principio area visible LCD
     
     while( BusyXLCD() ); 
-    putrsXLCD(" Sucre ");
+    putrsXLCD(" Monagas ");
     __delay_ms(2000);
     
-    while (BusyXLCD()); // Wait if LCD busy
-    WriteCmdXLCD(0x01); // Clear display
+    while (BusyXLCD()); // Esperar, si el LCD esta ocupado
+    WriteCmdXLCD(0x01); // Limpia la pantalla del LCD
 
         
         IO_RA0_Toggle();

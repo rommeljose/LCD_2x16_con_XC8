@@ -10,24 +10,24 @@
 
 
 void saludo(void) {
-    while (BusyXLCD()); // Wait if LCD busy
-    WriteCmdXLCD(0x01); // Clear display 
+    while (BusyXLCD()); // Esperar, si el LCD esta ocupado 
+    WriteCmdXLCD(0x01); // Limpia la pantalla del LCD 
 
-    while (BusyXLCD()); //wait untill LCD controller is busy  
+    while (BusyXLCD()); // Esperar, si el LCD esta ocupado   
     SetDDRamAddr(0x80); // Principio area visible LCD
 
-    while (BusyXLCD()); //wait untill LCD controller is busy  
-    putrsXLCD("  Conversor A/D");
+    while (BusyXLCD()); //Esperar, si el LCD esta ocupado  
+    putrsXLCD("Lib. 2x16 LCD");
 
     while (BusyXLCD());
     SetDDRamAddr(0xC0); // Principio area visible LCD
 
     while( BusyXLCD() ); 
-    putrsXLCD("   Enero-2020");
+    putrsXLCD("XC8-Enero-2021");
     __delay_ms(1000);
     
-    while (BusyXLCD()); // Wait if LCD busy
-    WriteCmdXLCD(0x01); // Clear display
+    while (BusyXLCD()); // Esperar, si el LCD esta ocupado 
+    WriteCmdXLCD(0x01); // Limpia la pantalla del LCD
 }
 /*
 
