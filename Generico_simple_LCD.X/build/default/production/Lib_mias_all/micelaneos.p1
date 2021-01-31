@@ -1,0 +1,616 @@
+Version 4.0 HI-TECH Software Intermediate Code
+"97 Lib_mias_all/../Lib_mias_all/microchip_LCD/xlcd.h
+[; ;Lib_mias_all/../Lib_mias_all/microchip_LCD/xlcd.h: 97: unsigned char BusyXLCD(void);
+[v _BusyXLCD `(uc ~T0 @X0 0 ef ]
+"112
+[; ;Lib_mias_all/../Lib_mias_all/microchip_LCD/xlcd.h: 112: void WriteCmdXLCD(unsigned char);
+[v _WriteCmdXLCD `(v ~T0 @X0 0 ef1`uc ]
+"92
+[; ;Lib_mias_all/../Lib_mias_all/microchip_LCD/xlcd.h: 92: void SetDDRamAddr(unsigned char);
+[v _SetDDRamAddr `(v ~T0 @X0 0 ef1`uc ]
+"132
+[; ;Lib_mias_all/../Lib_mias_all/microchip_LCD/xlcd.h: 132: void putrsXLCD(char *);
+[v _putrsXLCD `(v ~T0 @X0 0 ef1`*uc ]
+[v F2397 `(v ~T0 @X0 1 tf1`ul ]
+"203 C:/Users/rommel/.mchp_packs/Microchip/PIC18F-K_DFP/1.4.87/xc8\pic\include\pic18.h
+[v __delay `JF2397 ~T0 @X0 0 e ]
+[p i __delay ]
+"113 D:\Programas_varios\Microchip\xc8\v2.31\pic\include\c99\stdio.h
+[v _sprintf `(i ~T0 @X0 0 e1v`*uc`*Cuc ]
+"54 C:/Users/rommel/.mchp_packs/Microchip/PIC18F-K_DFP/1.4.87/xc8\pic\include\proc\pic18f25k20.h
+[; ;C:/Users/rommel/.mchp_packs/Microchip/PIC18F-K_DFP/1.4.87/xc8\pic\include\proc\pic18f25k20.h: 54: __asm("SSPMSK equ 0F77h");
+[; <" SSPMSK equ 0F77h ;# ">
+"124
+[; ;C:/Users/rommel/.mchp_packs/Microchip/PIC18F-K_DFP/1.4.87/xc8\pic\include\proc\pic18f25k20.h: 124: __asm("SLRCON equ 0F78h");
+[; <" SLRCON equ 0F78h ;# ">
+"156
+[; ;C:/Users/rommel/.mchp_packs/Microchip/PIC18F-K_DFP/1.4.87/xc8\pic\include\proc\pic18f25k20.h: 156: __asm("CM2CON1 equ 0F79h");
+[; <" CM2CON1 equ 0F79h ;# ">
+"195
+[; ;C:/Users/rommel/.mchp_packs/Microchip/PIC18F-K_DFP/1.4.87/xc8\pic\include\proc\pic18f25k20.h: 195: __asm("CM2CON0 equ 0F7Ah");
+[; <" CM2CON0 equ 0F7Ah ;# ">
+"265
+[; ;C:/Users/rommel/.mchp_packs/Microchip/PIC18F-K_DFP/1.4.87/xc8\pic\include\proc\pic18f25k20.h: 265: __asm("CM1CON0 equ 0F7Bh");
+[; <" CM1CON0 equ 0F7Bh ;# ">
+"335
+[; ;C:/Users/rommel/.mchp_packs/Microchip/PIC18F-K_DFP/1.4.87/xc8\pic\include\proc\pic18f25k20.h: 335: __asm("WPUB equ 0F7Ch");
+[; <" WPUB equ 0F7Ch ;# ">
+"397
+[; ;C:/Users/rommel/.mchp_packs/Microchip/PIC18F-K_DFP/1.4.87/xc8\pic\include\proc\pic18f25k20.h: 397: __asm("IOCB equ 0F7Dh");
+[; <" IOCB equ 0F7Dh ;# ">
+"436
+[; ;C:/Users/rommel/.mchp_packs/Microchip/PIC18F-K_DFP/1.4.87/xc8\pic\include\proc\pic18f25k20.h: 436: __asm("ANSEL equ 0F7Eh");
+[; <" ANSEL equ 0F7Eh ;# ">
+"480
+[; ;C:/Users/rommel/.mchp_packs/Microchip/PIC18F-K_DFP/1.4.87/xc8\pic\include\proc\pic18f25k20.h: 480: __asm("ANSELH equ 0F7Fh");
+[; <" ANSELH equ 0F7Fh ;# ">
+"524
+[; ;C:/Users/rommel/.mchp_packs/Microchip/PIC18F-K_DFP/1.4.87/xc8\pic\include\proc\pic18f25k20.h: 524: __asm("PORTA equ 0F80h");
+[; <" PORTA equ 0F80h ;# ">
+"760
+[; ;C:/Users/rommel/.mchp_packs/Microchip/PIC18F-K_DFP/1.4.87/xc8\pic\include\proc\pic18f25k20.h: 760: __asm("PORTB equ 0F81h");
+[; <" PORTB equ 0F81h ;# ">
+"990
+[; ;C:/Users/rommel/.mchp_packs/Microchip/PIC18F-K_DFP/1.4.87/xc8\pic\include\proc\pic18f25k20.h: 990: __asm("PORTC equ 0F82h");
+[; <" PORTC equ 0F82h ;# ">
+"1178
+[; ;C:/Users/rommel/.mchp_packs/Microchip/PIC18F-K_DFP/1.4.87/xc8\pic\include\proc\pic18f25k20.h: 1178: __asm("PORTE equ 0F84h");
+[; <" PORTE equ 0F84h ;# ">
+"1253
+[; ;C:/Users/rommel/.mchp_packs/Microchip/PIC18F-K_DFP/1.4.87/xc8\pic\include\proc\pic18f25k20.h: 1253: __asm("LATA equ 0F89h");
+[; <" LATA equ 0F89h ;# ">
+"1365
+[; ;C:/Users/rommel/.mchp_packs/Microchip/PIC18F-K_DFP/1.4.87/xc8\pic\include\proc\pic18f25k20.h: 1365: __asm("LATB equ 0F8Ah");
+[; <" LATB equ 0F8Ah ;# ">
+"1477
+[; ;C:/Users/rommel/.mchp_packs/Microchip/PIC18F-K_DFP/1.4.87/xc8\pic\include\proc\pic18f25k20.h: 1477: __asm("LATC equ 0F8Bh");
+[; <" LATC equ 0F8Bh ;# ">
+"1589
+[; ;C:/Users/rommel/.mchp_packs/Microchip/PIC18F-K_DFP/1.4.87/xc8\pic\include\proc\pic18f25k20.h: 1589: __asm("TRISA equ 0F92h");
+[; <" TRISA equ 0F92h ;# ">
+"1594
+[; ;C:/Users/rommel/.mchp_packs/Microchip/PIC18F-K_DFP/1.4.87/xc8\pic\include\proc\pic18f25k20.h: 1594: __asm("DDRA equ 0F92h");
+[; <" DDRA equ 0F92h ;# ">
+"1811
+[; ;C:/Users/rommel/.mchp_packs/Microchip/PIC18F-K_DFP/1.4.87/xc8\pic\include\proc\pic18f25k20.h: 1811: __asm("TRISB equ 0F93h");
+[; <" TRISB equ 0F93h ;# ">
+"1816
+[; ;C:/Users/rommel/.mchp_packs/Microchip/PIC18F-K_DFP/1.4.87/xc8\pic\include\proc\pic18f25k20.h: 1816: __asm("DDRB equ 0F93h");
+[; <" DDRB equ 0F93h ;# ">
+"2033
+[; ;C:/Users/rommel/.mchp_packs/Microchip/PIC18F-K_DFP/1.4.87/xc8\pic\include\proc\pic18f25k20.h: 2033: __asm("TRISC equ 0F94h");
+[; <" TRISC equ 0F94h ;# ">
+"2038
+[; ;C:/Users/rommel/.mchp_packs/Microchip/PIC18F-K_DFP/1.4.87/xc8\pic\include\proc\pic18f25k20.h: 2038: __asm("DDRC equ 0F94h");
+[; <" DDRC equ 0F94h ;# ">
+"2255
+[; ;C:/Users/rommel/.mchp_packs/Microchip/PIC18F-K_DFP/1.4.87/xc8\pic\include\proc\pic18f25k20.h: 2255: __asm("OSCTUNE equ 0F9Bh");
+[; <" OSCTUNE equ 0F9Bh ;# ">
+"2325
+[; ;C:/Users/rommel/.mchp_packs/Microchip/PIC18F-K_DFP/1.4.87/xc8\pic\include\proc\pic18f25k20.h: 2325: __asm("PIE1 equ 0F9Dh");
+[; <" PIE1 equ 0F9Dh ;# ">
+"2396
+[; ;C:/Users/rommel/.mchp_packs/Microchip/PIC18F-K_DFP/1.4.87/xc8\pic\include\proc\pic18f25k20.h: 2396: __asm("PIR1 equ 0F9Eh");
+[; <" PIR1 equ 0F9Eh ;# ">
+"2467
+[; ;C:/Users/rommel/.mchp_packs/Microchip/PIC18F-K_DFP/1.4.87/xc8\pic\include\proc\pic18f25k20.h: 2467: __asm("IPR1 equ 0F9Fh");
+[; <" IPR1 equ 0F9Fh ;# ">
+"2538
+[; ;C:/Users/rommel/.mchp_packs/Microchip/PIC18F-K_DFP/1.4.87/xc8\pic\include\proc\pic18f25k20.h: 2538: __asm("PIE2 equ 0FA0h");
+[; <" PIE2 equ 0FA0h ;# ">
+"2618
+[; ;C:/Users/rommel/.mchp_packs/Microchip/PIC18F-K_DFP/1.4.87/xc8\pic\include\proc\pic18f25k20.h: 2618: __asm("PIR2 equ 0FA1h");
+[; <" PIR2 equ 0FA1h ;# ">
+"2698
+[; ;C:/Users/rommel/.mchp_packs/Microchip/PIC18F-K_DFP/1.4.87/xc8\pic\include\proc\pic18f25k20.h: 2698: __asm("IPR2 equ 0FA2h");
+[; <" IPR2 equ 0FA2h ;# ">
+"2778
+[; ;C:/Users/rommel/.mchp_packs/Microchip/PIC18F-K_DFP/1.4.87/xc8\pic\include\proc\pic18f25k20.h: 2778: __asm("EECON1 equ 0FA6h");
+[; <" EECON1 equ 0FA6h ;# ">
+"2844
+[; ;C:/Users/rommel/.mchp_packs/Microchip/PIC18F-K_DFP/1.4.87/xc8\pic\include\proc\pic18f25k20.h: 2844: __asm("EECON2 equ 0FA7h");
+[; <" EECON2 equ 0FA7h ;# ">
+"2851
+[; ;C:/Users/rommel/.mchp_packs/Microchip/PIC18F-K_DFP/1.4.87/xc8\pic\include\proc\pic18f25k20.h: 2851: __asm("EEDATA equ 0FA8h");
+[; <" EEDATA equ 0FA8h ;# ">
+"2858
+[; ;C:/Users/rommel/.mchp_packs/Microchip/PIC18F-K_DFP/1.4.87/xc8\pic\include\proc\pic18f25k20.h: 2858: __asm("EEADR equ 0FA9h");
+[; <" EEADR equ 0FA9h ;# ">
+"2920
+[; ;C:/Users/rommel/.mchp_packs/Microchip/PIC18F-K_DFP/1.4.87/xc8\pic\include\proc\pic18f25k20.h: 2920: __asm("RCSTA equ 0FABh");
+[; <" RCSTA equ 0FABh ;# ">
+"2925
+[; ;C:/Users/rommel/.mchp_packs/Microchip/PIC18F-K_DFP/1.4.87/xc8\pic\include\proc\pic18f25k20.h: 2925: __asm("RCSTA1 equ 0FABh");
+[; <" RCSTA1 equ 0FABh ;# ">
+"3130
+[; ;C:/Users/rommel/.mchp_packs/Microchip/PIC18F-K_DFP/1.4.87/xc8\pic\include\proc\pic18f25k20.h: 3130: __asm("TXSTA equ 0FACh");
+[; <" TXSTA equ 0FACh ;# ">
+"3135
+[; ;C:/Users/rommel/.mchp_packs/Microchip/PIC18F-K_DFP/1.4.87/xc8\pic\include\proc\pic18f25k20.h: 3135: __asm("TXSTA1 equ 0FACh");
+[; <" TXSTA1 equ 0FACh ;# ">
+"3386
+[; ;C:/Users/rommel/.mchp_packs/Microchip/PIC18F-K_DFP/1.4.87/xc8\pic\include\proc\pic18f25k20.h: 3386: __asm("TXREG equ 0FADh");
+[; <" TXREG equ 0FADh ;# ">
+"3391
+[; ;C:/Users/rommel/.mchp_packs/Microchip/PIC18F-K_DFP/1.4.87/xc8\pic\include\proc\pic18f25k20.h: 3391: __asm("TXREG1 equ 0FADh");
+[; <" TXREG1 equ 0FADh ;# ">
+"3398
+[; ;C:/Users/rommel/.mchp_packs/Microchip/PIC18F-K_DFP/1.4.87/xc8\pic\include\proc\pic18f25k20.h: 3398: __asm("RCREG equ 0FAEh");
+[; <" RCREG equ 0FAEh ;# ">
+"3403
+[; ;C:/Users/rommel/.mchp_packs/Microchip/PIC18F-K_DFP/1.4.87/xc8\pic\include\proc\pic18f25k20.h: 3403: __asm("RCREG1 equ 0FAEh");
+[; <" RCREG1 equ 0FAEh ;# ">
+"3410
+[; ;C:/Users/rommel/.mchp_packs/Microchip/PIC18F-K_DFP/1.4.87/xc8\pic\include\proc\pic18f25k20.h: 3410: __asm("SPBRG equ 0FAFh");
+[; <" SPBRG equ 0FAFh ;# ">
+"3415
+[; ;C:/Users/rommel/.mchp_packs/Microchip/PIC18F-K_DFP/1.4.87/xc8\pic\include\proc\pic18f25k20.h: 3415: __asm("SPBRG1 equ 0FAFh");
+[; <" SPBRG1 equ 0FAFh ;# ">
+"3422
+[; ;C:/Users/rommel/.mchp_packs/Microchip/PIC18F-K_DFP/1.4.87/xc8\pic\include\proc\pic18f25k20.h: 3422: __asm("SPBRGH equ 0FB0h");
+[; <" SPBRGH equ 0FB0h ;# ">
+"3429
+[; ;C:/Users/rommel/.mchp_packs/Microchip/PIC18F-K_DFP/1.4.87/xc8\pic\include\proc\pic18f25k20.h: 3429: __asm("T3CON equ 0FB1h");
+[; <" T3CON equ 0FB1h ;# ">
+"3541
+[; ;C:/Users/rommel/.mchp_packs/Microchip/PIC18F-K_DFP/1.4.87/xc8\pic\include\proc\pic18f25k20.h: 3541: __asm("TMR3 equ 0FB2h");
+[; <" TMR3 equ 0FB2h ;# ">
+"3548
+[; ;C:/Users/rommel/.mchp_packs/Microchip/PIC18F-K_DFP/1.4.87/xc8\pic\include\proc\pic18f25k20.h: 3548: __asm("TMR3L equ 0FB2h");
+[; <" TMR3L equ 0FB2h ;# ">
+"3555
+[; ;C:/Users/rommel/.mchp_packs/Microchip/PIC18F-K_DFP/1.4.87/xc8\pic\include\proc\pic18f25k20.h: 3555: __asm("TMR3H equ 0FB3h");
+[; <" TMR3H equ 0FB3h ;# ">
+"3562
+[; ;C:/Users/rommel/.mchp_packs/Microchip/PIC18F-K_DFP/1.4.87/xc8\pic\include\proc\pic18f25k20.h: 3562: __asm("CVRCON2 equ 0FB4h");
+[; <" CVRCON2 equ 0FB4h ;# ">
+"3589
+[; ;C:/Users/rommel/.mchp_packs/Microchip/PIC18F-K_DFP/1.4.87/xc8\pic\include\proc\pic18f25k20.h: 3589: __asm("CVRCON equ 0FB5h");
+[; <" CVRCON equ 0FB5h ;# ">
+"3668
+[; ;C:/Users/rommel/.mchp_packs/Microchip/PIC18F-K_DFP/1.4.87/xc8\pic\include\proc\pic18f25k20.h: 3668: __asm("ECCP1AS equ 0FB6h");
+[; <" ECCP1AS equ 0FB6h ;# ">
+"3750
+[; ;C:/Users/rommel/.mchp_packs/Microchip/PIC18F-K_DFP/1.4.87/xc8\pic\include\proc\pic18f25k20.h: 3750: __asm("PWM1CON equ 0FB7h");
+[; <" PWM1CON equ 0FB7h ;# ">
+"3820
+[; ;C:/Users/rommel/.mchp_packs/Microchip/PIC18F-K_DFP/1.4.87/xc8\pic\include\proc\pic18f25k20.h: 3820: __asm("BAUDCON equ 0FB8h");
+[; <" BAUDCON equ 0FB8h ;# ">
+"3825
+[; ;C:/Users/rommel/.mchp_packs/Microchip/PIC18F-K_DFP/1.4.87/xc8\pic\include\proc\pic18f25k20.h: 3825: __asm("BAUDCTL equ 0FB8h");
+[; <" BAUDCTL equ 0FB8h ;# ">
+"3986
+[; ;C:/Users/rommel/.mchp_packs/Microchip/PIC18F-K_DFP/1.4.87/xc8\pic\include\proc\pic18f25k20.h: 3986: __asm("PSTRCON equ 0FB9h");
+[; <" PSTRCON equ 0FB9h ;# ">
+"4030
+[; ;C:/Users/rommel/.mchp_packs/Microchip/PIC18F-K_DFP/1.4.87/xc8\pic\include\proc\pic18f25k20.h: 4030: __asm("CCP2CON equ 0FBAh");
+[; <" CCP2CON equ 0FBAh ;# ">
+"4094
+[; ;C:/Users/rommel/.mchp_packs/Microchip/PIC18F-K_DFP/1.4.87/xc8\pic\include\proc\pic18f25k20.h: 4094: __asm("CCPR2 equ 0FBBh");
+[; <" CCPR2 equ 0FBBh ;# ">
+"4101
+[; ;C:/Users/rommel/.mchp_packs/Microchip/PIC18F-K_DFP/1.4.87/xc8\pic\include\proc\pic18f25k20.h: 4101: __asm("CCPR2L equ 0FBBh");
+[; <" CCPR2L equ 0FBBh ;# ">
+"4108
+[; ;C:/Users/rommel/.mchp_packs/Microchip/PIC18F-K_DFP/1.4.87/xc8\pic\include\proc\pic18f25k20.h: 4108: __asm("CCPR2H equ 0FBCh");
+[; <" CCPR2H equ 0FBCh ;# ">
+"4115
+[; ;C:/Users/rommel/.mchp_packs/Microchip/PIC18F-K_DFP/1.4.87/xc8\pic\include\proc\pic18f25k20.h: 4115: __asm("CCP1CON equ 0FBDh");
+[; <" CCP1CON equ 0FBDh ;# ">
+"4197
+[; ;C:/Users/rommel/.mchp_packs/Microchip/PIC18F-K_DFP/1.4.87/xc8\pic\include\proc\pic18f25k20.h: 4197: __asm("CCPR1 equ 0FBEh");
+[; <" CCPR1 equ 0FBEh ;# ">
+"4204
+[; ;C:/Users/rommel/.mchp_packs/Microchip/PIC18F-K_DFP/1.4.87/xc8\pic\include\proc\pic18f25k20.h: 4204: __asm("CCPR1L equ 0FBEh");
+[; <" CCPR1L equ 0FBEh ;# ">
+"4211
+[; ;C:/Users/rommel/.mchp_packs/Microchip/PIC18F-K_DFP/1.4.87/xc8\pic\include\proc\pic18f25k20.h: 4211: __asm("CCPR1H equ 0FBFh");
+[; <" CCPR1H equ 0FBFh ;# ">
+"4218
+[; ;C:/Users/rommel/.mchp_packs/Microchip/PIC18F-K_DFP/1.4.87/xc8\pic\include\proc\pic18f25k20.h: 4218: __asm("ADCON2 equ 0FC0h");
+[; <" ADCON2 equ 0FC0h ;# ">
+"4289
+[; ;C:/Users/rommel/.mchp_packs/Microchip/PIC18F-K_DFP/1.4.87/xc8\pic\include\proc\pic18f25k20.h: 4289: __asm("ADCON1 equ 0FC1h");
+[; <" ADCON1 equ 0FC1h ;# ">
+"4340
+[; ;C:/Users/rommel/.mchp_packs/Microchip/PIC18F-K_DFP/1.4.87/xc8\pic\include\proc\pic18f25k20.h: 4340: __asm("ADCON0 equ 0FC2h");
+[; <" ADCON0 equ 0FC2h ;# ">
+"4459
+[; ;C:/Users/rommel/.mchp_packs/Microchip/PIC18F-K_DFP/1.4.87/xc8\pic\include\proc\pic18f25k20.h: 4459: __asm("ADRES equ 0FC3h");
+[; <" ADRES equ 0FC3h ;# ">
+"4466
+[; ;C:/Users/rommel/.mchp_packs/Microchip/PIC18F-K_DFP/1.4.87/xc8\pic\include\proc\pic18f25k20.h: 4466: __asm("ADRESL equ 0FC3h");
+[; <" ADRESL equ 0FC3h ;# ">
+"4473
+[; ;C:/Users/rommel/.mchp_packs/Microchip/PIC18F-K_DFP/1.4.87/xc8\pic\include\proc\pic18f25k20.h: 4473: __asm("ADRESH equ 0FC4h");
+[; <" ADRESH equ 0FC4h ;# ">
+"4480
+[; ;C:/Users/rommel/.mchp_packs/Microchip/PIC18F-K_DFP/1.4.87/xc8\pic\include\proc\pic18f25k20.h: 4480: __asm("SSPCON2 equ 0FC5h");
+[; <" SSPCON2 equ 0FC5h ;# ">
+"4542
+[; ;C:/Users/rommel/.mchp_packs/Microchip/PIC18F-K_DFP/1.4.87/xc8\pic\include\proc\pic18f25k20.h: 4542: __asm("SSPCON1 equ 0FC6h");
+[; <" SSPCON1 equ 0FC6h ;# ">
+"4612
+[; ;C:/Users/rommel/.mchp_packs/Microchip/PIC18F-K_DFP/1.4.87/xc8\pic\include\proc\pic18f25k20.h: 4612: __asm("SSPSTAT equ 0FC7h");
+[; <" SSPSTAT equ 0FC7h ;# ">
+"4837
+[; ;C:/Users/rommel/.mchp_packs/Microchip/PIC18F-K_DFP/1.4.87/xc8\pic\include\proc\pic18f25k20.h: 4837: __asm("SSPADD equ 0FC8h");
+[; <" SSPADD equ 0FC8h ;# ">
+"4844
+[; ;C:/Users/rommel/.mchp_packs/Microchip/PIC18F-K_DFP/1.4.87/xc8\pic\include\proc\pic18f25k20.h: 4844: __asm("SSPBUF equ 0FC9h");
+[; <" SSPBUF equ 0FC9h ;# ">
+"4851
+[; ;C:/Users/rommel/.mchp_packs/Microchip/PIC18F-K_DFP/1.4.87/xc8\pic\include\proc\pic18f25k20.h: 4851: __asm("T2CON equ 0FCAh");
+[; <" T2CON equ 0FCAh ;# ">
+"4922
+[; ;C:/Users/rommel/.mchp_packs/Microchip/PIC18F-K_DFP/1.4.87/xc8\pic\include\proc\pic18f25k20.h: 4922: __asm("PR2 equ 0FCBh");
+[; <" PR2 equ 0FCBh ;# ">
+"4927
+[; ;C:/Users/rommel/.mchp_packs/Microchip/PIC18F-K_DFP/1.4.87/xc8\pic\include\proc\pic18f25k20.h: 4927: __asm("MEMCON equ 0FCBh");
+[; <" MEMCON equ 0FCBh ;# ">
+"5032
+[; ;C:/Users/rommel/.mchp_packs/Microchip/PIC18F-K_DFP/1.4.87/xc8\pic\include\proc\pic18f25k20.h: 5032: __asm("TMR2 equ 0FCCh");
+[; <" TMR2 equ 0FCCh ;# ">
+"5039
+[; ;C:/Users/rommel/.mchp_packs/Microchip/PIC18F-K_DFP/1.4.87/xc8\pic\include\proc\pic18f25k20.h: 5039: __asm("T1CON equ 0FCDh");
+[; <" T1CON equ 0FCDh ;# ">
+"5142
+[; ;C:/Users/rommel/.mchp_packs/Microchip/PIC18F-K_DFP/1.4.87/xc8\pic\include\proc\pic18f25k20.h: 5142: __asm("TMR1 equ 0FCEh");
+[; <" TMR1 equ 0FCEh ;# ">
+"5149
+[; ;C:/Users/rommel/.mchp_packs/Microchip/PIC18F-K_DFP/1.4.87/xc8\pic\include\proc\pic18f25k20.h: 5149: __asm("TMR1L equ 0FCEh");
+[; <" TMR1L equ 0FCEh ;# ">
+"5156
+[; ;C:/Users/rommel/.mchp_packs/Microchip/PIC18F-K_DFP/1.4.87/xc8\pic\include\proc\pic18f25k20.h: 5156: __asm("TMR1H equ 0FCFh");
+[; <" TMR1H equ 0FCFh ;# ">
+"5163
+[; ;C:/Users/rommel/.mchp_packs/Microchip/PIC18F-K_DFP/1.4.87/xc8\pic\include\proc\pic18f25k20.h: 5163: __asm("RCON equ 0FD0h");
+[; <" RCON equ 0FD0h ;# ">
+"5296
+[; ;C:/Users/rommel/.mchp_packs/Microchip/PIC18F-K_DFP/1.4.87/xc8\pic\include\proc\pic18f25k20.h: 5296: __asm("WDTCON equ 0FD1h");
+[; <" WDTCON equ 0FD1h ;# ">
+"5324
+[; ;C:/Users/rommel/.mchp_packs/Microchip/PIC18F-K_DFP/1.4.87/xc8\pic\include\proc\pic18f25k20.h: 5324: __asm("HLVDCON equ 0FD2h");
+[; <" HLVDCON equ 0FD2h ;# ">
+"5329
+[; ;C:/Users/rommel/.mchp_packs/Microchip/PIC18F-K_DFP/1.4.87/xc8\pic\include\proc\pic18f25k20.h: 5329: __asm("LVDCON equ 0FD2h");
+[; <" LVDCON equ 0FD2h ;# ">
+"5594
+[; ;C:/Users/rommel/.mchp_packs/Microchip/PIC18F-K_DFP/1.4.87/xc8\pic\include\proc\pic18f25k20.h: 5594: __asm("OSCCON equ 0FD3h");
+[; <" OSCCON equ 0FD3h ;# ">
+"5671
+[; ;C:/Users/rommel/.mchp_packs/Microchip/PIC18F-K_DFP/1.4.87/xc8\pic\include\proc\pic18f25k20.h: 5671: __asm("T0CON equ 0FD5h");
+[; <" T0CON equ 0FD5h ;# ">
+"5741
+[; ;C:/Users/rommel/.mchp_packs/Microchip/PIC18F-K_DFP/1.4.87/xc8\pic\include\proc\pic18f25k20.h: 5741: __asm("TMR0 equ 0FD6h");
+[; <" TMR0 equ 0FD6h ;# ">
+"5748
+[; ;C:/Users/rommel/.mchp_packs/Microchip/PIC18F-K_DFP/1.4.87/xc8\pic\include\proc\pic18f25k20.h: 5748: __asm("TMR0L equ 0FD6h");
+[; <" TMR0L equ 0FD6h ;# ">
+"5755
+[; ;C:/Users/rommel/.mchp_packs/Microchip/PIC18F-K_DFP/1.4.87/xc8\pic\include\proc\pic18f25k20.h: 5755: __asm("TMR0H equ 0FD7h");
+[; <" TMR0H equ 0FD7h ;# ">
+"5762
+[; ;C:/Users/rommel/.mchp_packs/Microchip/PIC18F-K_DFP/1.4.87/xc8\pic\include\proc\pic18f25k20.h: 5762: __asm("STATUS equ 0FD8h");
+[; <" STATUS equ 0FD8h ;# ">
+"5833
+[; ;C:/Users/rommel/.mchp_packs/Microchip/PIC18F-K_DFP/1.4.87/xc8\pic\include\proc\pic18f25k20.h: 5833: __asm("FSR2 equ 0FD9h");
+[; <" FSR2 equ 0FD9h ;# ">
+"5840
+[; ;C:/Users/rommel/.mchp_packs/Microchip/PIC18F-K_DFP/1.4.87/xc8\pic\include\proc\pic18f25k20.h: 5840: __asm("FSR2L equ 0FD9h");
+[; <" FSR2L equ 0FD9h ;# ">
+"5847
+[; ;C:/Users/rommel/.mchp_packs/Microchip/PIC18F-K_DFP/1.4.87/xc8\pic\include\proc\pic18f25k20.h: 5847: __asm("FSR2H equ 0FDAh");
+[; <" FSR2H equ 0FDAh ;# ">
+"5854
+[; ;C:/Users/rommel/.mchp_packs/Microchip/PIC18F-K_DFP/1.4.87/xc8\pic\include\proc\pic18f25k20.h: 5854: __asm("PLUSW2 equ 0FDBh");
+[; <" PLUSW2 equ 0FDBh ;# ">
+"5861
+[; ;C:/Users/rommel/.mchp_packs/Microchip/PIC18F-K_DFP/1.4.87/xc8\pic\include\proc\pic18f25k20.h: 5861: __asm("PREINC2 equ 0FDCh");
+[; <" PREINC2 equ 0FDCh ;# ">
+"5868
+[; ;C:/Users/rommel/.mchp_packs/Microchip/PIC18F-K_DFP/1.4.87/xc8\pic\include\proc\pic18f25k20.h: 5868: __asm("POSTDEC2 equ 0FDDh");
+[; <" POSTDEC2 equ 0FDDh ;# ">
+"5875
+[; ;C:/Users/rommel/.mchp_packs/Microchip/PIC18F-K_DFP/1.4.87/xc8\pic\include\proc\pic18f25k20.h: 5875: __asm("POSTINC2 equ 0FDEh");
+[; <" POSTINC2 equ 0FDEh ;# ">
+"5882
+[; ;C:/Users/rommel/.mchp_packs/Microchip/PIC18F-K_DFP/1.4.87/xc8\pic\include\proc\pic18f25k20.h: 5882: __asm("INDF2 equ 0FDFh");
+[; <" INDF2 equ 0FDFh ;# ">
+"5889
+[; ;C:/Users/rommel/.mchp_packs/Microchip/PIC18F-K_DFP/1.4.87/xc8\pic\include\proc\pic18f25k20.h: 5889: __asm("BSR equ 0FE0h");
+[; <" BSR equ 0FE0h ;# ">
+"5896
+[; ;C:/Users/rommel/.mchp_packs/Microchip/PIC18F-K_DFP/1.4.87/xc8\pic\include\proc\pic18f25k20.h: 5896: __asm("FSR1 equ 0FE1h");
+[; <" FSR1 equ 0FE1h ;# ">
+"5903
+[; ;C:/Users/rommel/.mchp_packs/Microchip/PIC18F-K_DFP/1.4.87/xc8\pic\include\proc\pic18f25k20.h: 5903: __asm("FSR1L equ 0FE1h");
+[; <" FSR1L equ 0FE1h ;# ">
+"5910
+[; ;C:/Users/rommel/.mchp_packs/Microchip/PIC18F-K_DFP/1.4.87/xc8\pic\include\proc\pic18f25k20.h: 5910: __asm("FSR1H equ 0FE2h");
+[; <" FSR1H equ 0FE2h ;# ">
+"5917
+[; ;C:/Users/rommel/.mchp_packs/Microchip/PIC18F-K_DFP/1.4.87/xc8\pic\include\proc\pic18f25k20.h: 5917: __asm("PLUSW1 equ 0FE3h");
+[; <" PLUSW1 equ 0FE3h ;# ">
+"5924
+[; ;C:/Users/rommel/.mchp_packs/Microchip/PIC18F-K_DFP/1.4.87/xc8\pic\include\proc\pic18f25k20.h: 5924: __asm("PREINC1 equ 0FE4h");
+[; <" PREINC1 equ 0FE4h ;# ">
+"5931
+[; ;C:/Users/rommel/.mchp_packs/Microchip/PIC18F-K_DFP/1.4.87/xc8\pic\include\proc\pic18f25k20.h: 5931: __asm("POSTDEC1 equ 0FE5h");
+[; <" POSTDEC1 equ 0FE5h ;# ">
+"5938
+[; ;C:/Users/rommel/.mchp_packs/Microchip/PIC18F-K_DFP/1.4.87/xc8\pic\include\proc\pic18f25k20.h: 5938: __asm("POSTINC1 equ 0FE6h");
+[; <" POSTINC1 equ 0FE6h ;# ">
+"5945
+[; ;C:/Users/rommel/.mchp_packs/Microchip/PIC18F-K_DFP/1.4.87/xc8\pic\include\proc\pic18f25k20.h: 5945: __asm("INDF1 equ 0FE7h");
+[; <" INDF1 equ 0FE7h ;# ">
+"5952
+[; ;C:/Users/rommel/.mchp_packs/Microchip/PIC18F-K_DFP/1.4.87/xc8\pic\include\proc\pic18f25k20.h: 5952: __asm("WREG equ 0FE8h");
+[; <" WREG equ 0FE8h ;# ">
+"5964
+[; ;C:/Users/rommel/.mchp_packs/Microchip/PIC18F-K_DFP/1.4.87/xc8\pic\include\proc\pic18f25k20.h: 5964: __asm("FSR0 equ 0FE9h");
+[; <" FSR0 equ 0FE9h ;# ">
+"5971
+[; ;C:/Users/rommel/.mchp_packs/Microchip/PIC18F-K_DFP/1.4.87/xc8\pic\include\proc\pic18f25k20.h: 5971: __asm("FSR0L equ 0FE9h");
+[; <" FSR0L equ 0FE9h ;# ">
+"5978
+[; ;C:/Users/rommel/.mchp_packs/Microchip/PIC18F-K_DFP/1.4.87/xc8\pic\include\proc\pic18f25k20.h: 5978: __asm("FSR0H equ 0FEAh");
+[; <" FSR0H equ 0FEAh ;# ">
+"5985
+[; ;C:/Users/rommel/.mchp_packs/Microchip/PIC18F-K_DFP/1.4.87/xc8\pic\include\proc\pic18f25k20.h: 5985: __asm("PLUSW0 equ 0FEBh");
+[; <" PLUSW0 equ 0FEBh ;# ">
+"5992
+[; ;C:/Users/rommel/.mchp_packs/Microchip/PIC18F-K_DFP/1.4.87/xc8\pic\include\proc\pic18f25k20.h: 5992: __asm("PREINC0 equ 0FECh");
+[; <" PREINC0 equ 0FECh ;# ">
+"5999
+[; ;C:/Users/rommel/.mchp_packs/Microchip/PIC18F-K_DFP/1.4.87/xc8\pic\include\proc\pic18f25k20.h: 5999: __asm("POSTDEC0 equ 0FEDh");
+[; <" POSTDEC0 equ 0FEDh ;# ">
+"6006
+[; ;C:/Users/rommel/.mchp_packs/Microchip/PIC18F-K_DFP/1.4.87/xc8\pic\include\proc\pic18f25k20.h: 6006: __asm("POSTINC0 equ 0FEEh");
+[; <" POSTINC0 equ 0FEEh ;# ">
+"6013
+[; ;C:/Users/rommel/.mchp_packs/Microchip/PIC18F-K_DFP/1.4.87/xc8\pic\include\proc\pic18f25k20.h: 6013: __asm("INDF0 equ 0FEFh");
+[; <" INDF0 equ 0FEFh ;# ">
+"6020
+[; ;C:/Users/rommel/.mchp_packs/Microchip/PIC18F-K_DFP/1.4.87/xc8\pic\include\proc\pic18f25k20.h: 6020: __asm("INTCON3 equ 0FF0h");
+[; <" INTCON3 equ 0FF0h ;# ">
+"6112
+[; ;C:/Users/rommel/.mchp_packs/Microchip/PIC18F-K_DFP/1.4.87/xc8\pic\include\proc\pic18f25k20.h: 6112: __asm("INTCON2 equ 0FF1h");
+[; <" INTCON2 equ 0FF1h ;# ">
+"6182
+[; ;C:/Users/rommel/.mchp_packs/Microchip/PIC18F-K_DFP/1.4.87/xc8\pic\include\proc\pic18f25k20.h: 6182: __asm("INTCON equ 0FF2h");
+[; <" INTCON equ 0FF2h ;# ">
+"6299
+[; ;C:/Users/rommel/.mchp_packs/Microchip/PIC18F-K_DFP/1.4.87/xc8\pic\include\proc\pic18f25k20.h: 6299: __asm("PROD equ 0FF3h");
+[; <" PROD equ 0FF3h ;# ">
+"6306
+[; ;C:/Users/rommel/.mchp_packs/Microchip/PIC18F-K_DFP/1.4.87/xc8\pic\include\proc\pic18f25k20.h: 6306: __asm("PRODL equ 0FF3h");
+[; <" PRODL equ 0FF3h ;# ">
+"6313
+[; ;C:/Users/rommel/.mchp_packs/Microchip/PIC18F-K_DFP/1.4.87/xc8\pic\include\proc\pic18f25k20.h: 6313: __asm("PRODH equ 0FF4h");
+[; <" PRODH equ 0FF4h ;# ">
+"6320
+[; ;C:/Users/rommel/.mchp_packs/Microchip/PIC18F-K_DFP/1.4.87/xc8\pic\include\proc\pic18f25k20.h: 6320: __asm("TABLAT equ 0FF5h");
+[; <" TABLAT equ 0FF5h ;# ">
+"6329
+[; ;C:/Users/rommel/.mchp_packs/Microchip/PIC18F-K_DFP/1.4.87/xc8\pic\include\proc\pic18f25k20.h: 6329: __asm("TBLPTR equ 0FF6h");
+[; <" TBLPTR equ 0FF6h ;# ">
+"6336
+[; ;C:/Users/rommel/.mchp_packs/Microchip/PIC18F-K_DFP/1.4.87/xc8\pic\include\proc\pic18f25k20.h: 6336: __asm("TBLPTRL equ 0FF6h");
+[; <" TBLPTRL equ 0FF6h ;# ">
+"6343
+[; ;C:/Users/rommel/.mchp_packs/Microchip/PIC18F-K_DFP/1.4.87/xc8\pic\include\proc\pic18f25k20.h: 6343: __asm("TBLPTRH equ 0FF7h");
+[; <" TBLPTRH equ 0FF7h ;# ">
+"6350
+[; ;C:/Users/rommel/.mchp_packs/Microchip/PIC18F-K_DFP/1.4.87/xc8\pic\include\proc\pic18f25k20.h: 6350: __asm("TBLPTRU equ 0FF8h");
+[; <" TBLPTRU equ 0FF8h ;# ">
+"6359
+[; ;C:/Users/rommel/.mchp_packs/Microchip/PIC18F-K_DFP/1.4.87/xc8\pic\include\proc\pic18f25k20.h: 6359: __asm("PCLAT equ 0FF9h");
+[; <" PCLAT equ 0FF9h ;# ">
+"6366
+[; ;C:/Users/rommel/.mchp_packs/Microchip/PIC18F-K_DFP/1.4.87/xc8\pic\include\proc\pic18f25k20.h: 6366: __asm("PC equ 0FF9h");
+[; <" PC equ 0FF9h ;# ">
+"6373
+[; ;C:/Users/rommel/.mchp_packs/Microchip/PIC18F-K_DFP/1.4.87/xc8\pic\include\proc\pic18f25k20.h: 6373: __asm("PCL equ 0FF9h");
+[; <" PCL equ 0FF9h ;# ">
+"6380
+[; ;C:/Users/rommel/.mchp_packs/Microchip/PIC18F-K_DFP/1.4.87/xc8\pic\include\proc\pic18f25k20.h: 6380: __asm("PCLATH equ 0FFAh");
+[; <" PCLATH equ 0FFAh ;# ">
+"6387
+[; ;C:/Users/rommel/.mchp_packs/Microchip/PIC18F-K_DFP/1.4.87/xc8\pic\include\proc\pic18f25k20.h: 6387: __asm("PCLATU equ 0FFBh");
+[; <" PCLATU equ 0FFBh ;# ">
+"6394
+[; ;C:/Users/rommel/.mchp_packs/Microchip/PIC18F-K_DFP/1.4.87/xc8\pic\include\proc\pic18f25k20.h: 6394: __asm("STKPTR equ 0FFCh");
+[; <" STKPTR equ 0FFCh ;# ">
+"6468
+[; ;C:/Users/rommel/.mchp_packs/Microchip/PIC18F-K_DFP/1.4.87/xc8\pic\include\proc\pic18f25k20.h: 6468: __asm("TOS equ 0FFDh");
+[; <" TOS equ 0FFDh ;# ">
+"6475
+[; ;C:/Users/rommel/.mchp_packs/Microchip/PIC18F-K_DFP/1.4.87/xc8\pic\include\proc\pic18f25k20.h: 6475: __asm("TOSL equ 0FFDh");
+[; <" TOSL equ 0FFDh ;# ">
+"6482
+[; ;C:/Users/rommel/.mchp_packs/Microchip/PIC18F-K_DFP/1.4.87/xc8\pic\include\proc\pic18f25k20.h: 6482: __asm("TOSH equ 0FFEh");
+[; <" TOSH equ 0FFEh ;# ">
+"6489
+[; ;C:/Users/rommel/.mchp_packs/Microchip/PIC18F-K_DFP/1.4.87/xc8\pic\include\proc\pic18f25k20.h: 6489: __asm("TOSU equ 0FFFh");
+[; <" TOSU equ 0FFFh ;# ">
+"12 Lib_mias_all/micelaneos.c
+[; ;Lib_mias_all/micelaneos.c: 12: void saludo(void) {
+[v _saludo `(v ~T0 @X0 1 ef ]
+{
+[e :U _saludo ]
+[f ]
+"13
+[; ;Lib_mias_all/micelaneos.c: 13:     while (BusyXLCD());
+[e $U 279  ]
+[e :U 280 ]
+[e :U 279 ]
+[e $ != -> ( _BusyXLCD ..  `i -> 0 `i 280  ]
+[e :U 281 ]
+"14
+[; ;Lib_mias_all/micelaneos.c: 14:     WriteCmdXLCD(0x01);
+[e ( _WriteCmdXLCD (1 -> -> 1 `i `uc ]
+"16
+[; ;Lib_mias_all/micelaneos.c: 16:     while (BusyXLCD());
+[e $U 282  ]
+[e :U 283 ]
+[e :U 282 ]
+[e $ != -> ( _BusyXLCD ..  `i -> 0 `i 283  ]
+[e :U 284 ]
+"17
+[; ;Lib_mias_all/micelaneos.c: 17:     SetDDRamAddr(0x80);
+[e ( _SetDDRamAddr (1 -> -> 128 `i `uc ]
+"19
+[; ;Lib_mias_all/micelaneos.c: 19:     while (BusyXLCD());
+[e $U 285  ]
+[e :U 286 ]
+[e :U 285 ]
+[e $ != -> ( _BusyXLCD ..  `i -> 0 `i 286  ]
+[e :U 287 ]
+"20
+[; ;Lib_mias_all/micelaneos.c: 20:     putrsXLCD("  Conversor A/D");
+[e ( _putrsXLCD (1 :s 1C ]
+"22
+[; ;Lib_mias_all/micelaneos.c: 22:     while (BusyXLCD());
+[e $U 288  ]
+[e :U 289 ]
+[e :U 288 ]
+[e $ != -> ( _BusyXLCD ..  `i -> 0 `i 289  ]
+[e :U 290 ]
+"23
+[; ;Lib_mias_all/micelaneos.c: 23:     SetDDRamAddr(0xC0);
+[e ( _SetDDRamAddr (1 -> -> 192 `i `uc ]
+"25
+[; ;Lib_mias_all/micelaneos.c: 25:     while( BusyXLCD() );
+[e $U 291  ]
+[e :U 292 ]
+[e :U 291 ]
+[e $ != -> ( _BusyXLCD ..  `i -> 0 `i 292  ]
+[e :U 293 ]
+"26
+[; ;Lib_mias_all/micelaneos.c: 26:     putrsXLCD("   Enero-2020");
+[e ( _putrsXLCD (1 :s 2C ]
+"27
+[; ;Lib_mias_all/micelaneos.c: 27:     _delay((unsigned long)((1000)*(4000000/4000.0)));
+[e ( __delay (1 -> * -> -> 1000 `i `d / -> -> 4000000 `l `d .4000.0 `ul ]
+"29
+[; ;Lib_mias_all/micelaneos.c: 29:     while (BusyXLCD());
+[e $U 294  ]
+[e :U 295 ]
+[e :U 294 ]
+[e $ != -> ( _BusyXLCD ..  `i -> 0 `i 295  ]
+[e :U 296 ]
+"30
+[; ;Lib_mias_all/micelaneos.c: 30:     WriteCmdXLCD(0x01);
+[e ( _WriteCmdXLCD (1 -> -> 1 `i `uc ]
+"31
+[; ;Lib_mias_all/micelaneos.c: 31: }
+[e :UE 278 ]
+}
+"57
+[; ;Lib_mias_all/micelaneos.c: 57: char * ftoat_mio(float f, int * status)
+[v _ftoat_mio `(*uc ~T0 @X0 1 ef2`f`*i ]
+"58
+[; ;Lib_mias_all/micelaneos.c: 58: {
+{
+[e :U _ftoat_mio ]
+"57
+[; ;Lib_mias_all/micelaneos.c: 57: char * ftoat_mio(float f, int * status)
+[v _f `f ~T0 @X0 1 r1 ]
+[v _status `*i ~T0 @X0 1 r2 ]
+"58
+[; ;Lib_mias_all/micelaneos.c: 58: {
+[f ]
+"59
+[; ;Lib_mias_all/micelaneos.c: 59:  static char buf[17];
+[v F2973 `uc ~T0 @X0 -> 17 `i s buf ]
+"60
+[; ;Lib_mias_all/micelaneos.c: 60:  char * cp = buf;
+[v _cp `*uc ~T0 @X0 1 a ]
+[e = _cp &U F2973 ]
+"61
+[; ;Lib_mias_all/micelaneos.c: 61:  unsigned long l, rem;
+[v _l `ul ~T0 @X0 1 a ]
+[v _rem `ul ~T0 @X0 1 a ]
+"63
+[; ;Lib_mias_all/micelaneos.c: 63:  if(f < 0) {
+[e $ ! < _f -> -> 0 `i `f 298  ]
+{
+"64
+[; ;Lib_mias_all/micelaneos.c: 64:   *cp++ = '-';
+[e = *U ++ _cp * -> -> 1 `i `x -> -> # *U _cp `i `x -> -> 45 `ui `uc ]
+"65
+[; ;Lib_mias_all/micelaneos.c: 65:   f = -f;
+[e = _f -U _f ]
+"66
+[; ;Lib_mias_all/micelaneos.c: 66:  }
+}
+[e :U 298 ]
+"67
+[; ;Lib_mias_all/micelaneos.c: 67:  l = (unsigned long)f;
+[e = _l -> _f `ul ]
+"68
+[; ;Lib_mias_all/micelaneos.c: 68:  f -= (float)l;
+[e =- _f -> _l `f ]
+"69
+[; ;Lib_mias_all/micelaneos.c: 69:  rem = (unsigned long)(f * 1e3);
+[e = _rem -> * -> _f `d .1e3 `ul ]
+"74
+[; ;Lib_mias_all/micelaneos.c: 74:  sprintf(cp, "%lu.%4.3lu", l, rem);
+[e ( _sprintf (1 , , (. , _cp :s 3C _l _rem ]
+"75
+[; ;Lib_mias_all/micelaneos.c: 75:  return buf;
+[e ) &U F2973 ]
+[e $UE 297  ]
+"76
+[; ;Lib_mias_all/micelaneos.c: 76: }
+[e :UE 297 ]
+}
+"79
+[; ;Lib_mias_all/micelaneos.c: 79: void escribe_float(float valor, unsigned char lugar)
+[v _escribe_float `(v ~T0 @X0 1 ef2`f`uc ]
+"80
+[; ;Lib_mias_all/micelaneos.c: 80: {
+{
+[e :U _escribe_float ]
+"79
+[; ;Lib_mias_all/micelaneos.c: 79: void escribe_float(float valor, unsigned char lugar)
+[v _valor `f ~T0 @X0 1 r1 ]
+[v _lugar `uc ~T0 @X0 1 r2 ]
+"80
+[; ;Lib_mias_all/micelaneos.c: 80: {
+[f ]
+"81
+[; ;Lib_mias_all/micelaneos.c: 81:     char* buf11;
+[v _buf11 `*uc ~T0 @X0 1 a ]
+"82
+[; ;Lib_mias_all/micelaneos.c: 82:     int * status;
+[v _status `*i ~T0 @X0 1 a ]
+"83
+[; ;Lib_mias_all/micelaneos.c: 83:     buf11 = ftoat_mio(valor, status);
+[e = _buf11 ( _ftoat_mio (2 , _valor _status ]
+"84
+[; ;Lib_mias_all/micelaneos.c: 84:     while (BusyXLCD());
+[e $U 300  ]
+[e :U 301 ]
+[e :U 300 ]
+[e $ != -> ( _BusyXLCD ..  `i -> 0 `i 301  ]
+[e :U 302 ]
+"85
+[; ;Lib_mias_all/micelaneos.c: 85:     SetDDRamAddr(lugar);
+[e ( _SetDDRamAddr (1 _lugar ]
+"86
+[; ;Lib_mias_all/micelaneos.c: 86:     putrsXLCD(buf11);
+[e ( _putrsXLCD (1 _buf11 ]
+"87
+[; ;Lib_mias_all/micelaneos.c: 87:     putrsXLCD( "" );
+[e ( _putrsXLCD (1 :s 4C ]
+"89
+[; ;Lib_mias_all/micelaneos.c: 89: }
+[e :UE 299 ]
+}
+[p f _sprintf 8487952 ]
+[a 3C 37 108 117 46 37 52 46 51 108 117 0 ]
+[a 1C 32 32 67 111 110 118 101 114 115 111 114 32 65 47 68 0 ]
+[a 2C 32 32 32 69 110 101 114 111 45 50 48 50 48 0 ]
+[a 4C 0 ]

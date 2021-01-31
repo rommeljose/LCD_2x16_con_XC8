@@ -1,0 +1,301 @@
+[p GLOBOPT AUTOSTATIC IEEE_FLT IEEE_DBL LFSROK EMI_WORD ]
+[d version 1.1 ]
+[d edition pro ]
+[d chip 18F25K20 ]
+[d frameptr 4065 ]
+"4 D:\Programas_varios\Microchip\xc8\v2.31\pic\sources\c90\common\fleq.c
+[v ___fleq __fleq `(b  1 e 0 0 ]
+"15 D:\Programas_varios\Microchip\xc8\v2.31\pic\sources\c90\common\flneg.c
+[v ___flneg __flneg `(d  1 e 4 0 ]
+"62 D:\Programas_varios\Microchip\xc8\v2.31\pic\sources\c90\common\float.c
+[v ___ftpack __ftpack `(f  1 e 4 0 ]
+"43 D:\Programas_varios\Microchip\xc8\v2.31\pic\sources\c90\common\fltol.c
+[v ___fltol __fltol `(l  1 e 4 0 ]
+"86 D:\Programas_varios\Microchip\xc8\v2.31\pic\sources\c90\common\ftadd.c
+[v ___ftadd __ftadd `(f  1 e 4 0 ]
+"54 D:\Programas_varios\Microchip\xc8\v2.31\pic\sources\c90\common\ftdiv.c
+[v ___ftdiv __ftdiv `(f  1 e 4 0 ]
+"62 D:\Programas_varios\Microchip\xc8\v2.31\pic\sources\c90\common\ftmul.c
+[v ___ftmul __ftmul `(f  1 e 4 0 ]
+"19 D:\Programas_varios\Microchip\xc8\v2.31\pic\sources\c90\common\ftsub.c
+[v ___ftsub __ftsub `(f  1 e 4 0 ]
+"10 D:\Programas_varios\Microchip\xc8\v2.31\pic\sources\c90\common\sprcadd.c
+[v ___fladd __fladd `(d  1 e 4 0 ]
+"245
+[v ___flsub __flsub `(d  1 e 4 0 ]
+"11 D:\Programas_varios\Microchip\xc8\v2.31\pic\sources\c90\common\sprcdiv.c
+[v ___fldiv __fldiv `(d  1 e 4 0 ]
+"8 D:\Programas_varios\Microchip\xc8\v2.31\pic\sources\c90\common\sprcmul.c
+[v ___flmul __flmul `(d  1 e 4 0 ]
+"13 D:\Programas_varios\Microchip\xc8\v2.31\pic\sources\c90\common\sprintf.c
+[v _sprintf sprintf `(i  1 e 2 0 ]
+"15 D:\Programas_varios\Microchip\xc8\v2.31\pic\sources\c90\common\Umul32.c
+[v ___lmul __lmul `(ul  1 e 4 0 ]
+"91 D:\Programas_varios\Microchip\xc8\v2.31\pic\sources\c90\common\Umul64.c
+[v ___omul __omul `(ul  1 e 4 0 ]
+"10 D:\Programas_varios\Microchip\xc8\v2.31\pic\sources\c90\common\xxtofl.c
+[v ___xxtofl __xxtofl `(d  1 e 4 0 ]
+"57 F:\Electronica_2021\Generico_simple.X\Lib_mias_all/micelaneos.c
+[v _ftoat_mio ftoat_mio `(*.30uc  1 e 2 0 ]
+"11 F:\Electronica_2021\Generico_simple.X\Lib_mias_all/microchip_LCD/busyxlcd.c
+[v _BusyXLCD BusyXLCD `(uc  1 e 1 0 ]
+"62 F:\Electronica_2021\Generico_simple.X\Lib_mias_all/microchip_LCD/delay_xlcd.c
+[v _DelayFor18TCY DelayFor18TCY `(v  1 e 1 0 ]
+"69
+[v _DelayPORXLCD DelayPORXLCD `(v  1 e 1 0 ]
+"75
+[v _DelayXLCD DelayXLCD `(v  1 e 1 0 ]
+"8 F:\Electronica_2021\Generico_simple.X\Lib_mias_all/microchip_LCD/LCD_inicio.c
+[v _LCD_inicio LCD_inicio `(v  1 e 1 0 ]
+"20 F:\Electronica_2021\Generico_simple.X\Lib_mias_all/microchip_LCD/openxlcd.c
+[v _OpenXLCD OpenXLCD `(v  1 e 1 0 ]
+"16 F:\Electronica_2021\Generico_simple.X\Lib_mias_all/microchip_LCD/putrxlcd.c
+[v _putrsXLCD putrsXLCD `(v  1 e 1 0 ]
+"13 F:\Electronica_2021\Generico_simple.X\Lib_mias_all/microchip_LCD/setddram.c
+[v _SetDDRamAddr SetDDRamAddr `(v  1 e 1 0 ]
+"13 F:\Electronica_2021\Generico_simple.X\Lib_mias_all/microchip_LCD/wcmdxlcd.c
+[v _WriteCmdXLCD WriteCmdXLCD `(v  1 e 1 0 ]
+"16 F:\Electronica_2021\Generico_simple.X\Lib_mias_all/microchip_LCD/writdata.c
+[v _WriteDataXLCD WriteDataXLCD `(v  1 e 1 0 ]
+"51 F:\Electronica_2021\Generico_simple.X\main.c
+[v _main main `(v  1 e 1 0 ]
+"50 F:\Electronica_2021\Generico_simple.X\mcc_generated_files/mcc.c
+[v _SYSTEM_Initialize SYSTEM_Initialize `(v  1 e 1 0 ]
+"57
+[v _OSCILLATOR_Initialize OSCILLATOR_Initialize `(v  1 e 1 0 ]
+"55 F:\Electronica_2021\Generico_simple.X\mcc_generated_files/pin_manager.c
+[v _PIN_MANAGER_Initialize PIN_MANAGER_Initialize `(v  1 e 1 0 ]
+"333 C:/Users/rommel/.mchp_packs/Microchip/PIC18F-K_DFP/1.4.87/xc8\pic\include\proc\pic18f25k20.h
+[v _WPUB WPUB `VEuc  1 e 1 @3964 ]
+"434
+[v _ANSEL ANSEL `VEuc  1 e 1 @3966 ]
+"478
+[v _ANSELH ANSELH `VEuc  1 e 1 @3967 ]
+"758
+[v _PORTB PORTB `VEuc  1 e 1 @3969 ]
+"1251
+[v _LATA LATA `VEuc  1 e 1 @3977 ]
+[s S739 . 1 `uc 1 LATA0 1 0 :1:0 
+`uc 1 LATA1 1 0 :1:1 
+`uc 1 LATA2 1 0 :1:2 
+`uc 1 LATA3 1 0 :1:3 
+`uc 1 LATA4 1 0 :1:4 
+`uc 1 LATA5 1 0 :1:5 
+`uc 1 LATA6 1 0 :1:6 
+`uc 1 LATA7 1 0 :1:7 
+]
+"1278
+[s S748 . 1 `uc 1 LA0 1 0 :1:0 
+`uc 1 LA1 1 0 :1:1 
+`uc 1 LA2 1 0 :1:2 
+`uc 1 LA3 1 0 :1:3 
+`uc 1 LA4 1 0 :1:4 
+`uc 1 LA5 1 0 :1:5 
+`uc 1 LA6 1 0 :1:6 
+`uc 1 LA7 1 0 :1:7 
+]
+[u S757 . 1 `S739 1 . 1 0 `S748 1 . 1 0 ]
+[v _LATAbits LATAbits `VES757  1 e 1 @3977 ]
+"1363
+[v _LATB LATB `VEuc  1 e 1 @3978 ]
+[s S147 . 1 `uc 1 LATB0 1 0 :1:0 
+`uc 1 LATB1 1 0 :1:1 
+`uc 1 LATB2 1 0 :1:2 
+`uc 1 LATB3 1 0 :1:3 
+`uc 1 LATB4 1 0 :1:4 
+`uc 1 LATB5 1 0 :1:5 
+`uc 1 LATB6 1 0 :1:6 
+`uc 1 LATB7 1 0 :1:7 
+]
+"1390
+[s S156 . 1 `uc 1 LB0 1 0 :1:0 
+`uc 1 LB1 1 0 :1:1 
+`uc 1 LB2 1 0 :1:2 
+`uc 1 LB3 1 0 :1:3 
+`uc 1 LB4 1 0 :1:4 
+`uc 1 LB5 1 0 :1:5 
+`uc 1 LB6 1 0 :1:6 
+`uc 1 LB7 1 0 :1:7 
+]
+[u S165 . 1 `S147 1 . 1 0 `S156 1 . 1 0 ]
+[v _LATBbits LATBbits `VES165  1 e 1 @3978 ]
+"1475
+[v _LATC LATC `VEuc  1 e 1 @3979 ]
+[s S187 . 1 `uc 1 LATC0 1 0 :1:0 
+`uc 1 LATC1 1 0 :1:1 
+`uc 1 LATC2 1 0 :1:2 
+`uc 1 LATC3 1 0 :1:3 
+`uc 1 LATC4 1 0 :1:4 
+`uc 1 LATC5 1 0 :1:5 
+`uc 1 LATC6 1 0 :1:6 
+`uc 1 LATC7 1 0 :1:7 
+]
+"1502
+[s S196 . 1 `uc 1 LC0 1 0 :1:0 
+`uc 1 LC1 1 0 :1:1 
+`uc 1 LC2 1 0 :1:2 
+`uc 1 LC3 1 0 :1:3 
+`uc 1 LC4 1 0 :1:4 
+`uc 1 LC5 1 0 :1:5 
+`uc 1 LC6 1 0 :1:6 
+`uc 1 LC7 1 0 :1:7 
+]
+[u S205 . 1 `S187 1 . 1 0 `S196 1 . 1 0 ]
+[v _LATCbits LATCbits `VES205  1 e 1 @3979 ]
+"1587
+[v _TRISA TRISA `VEuc  1 e 1 @3986 ]
+"1809
+[v _TRISB TRISB `VEuc  1 e 1 @3987 ]
+[s S273 . 1 `uc 1 TRISB0 1 0 :1:0 
+`uc 1 TRISB1 1 0 :1:1 
+`uc 1 TRISB2 1 0 :1:2 
+`uc 1 TRISB3 1 0 :1:3 
+`uc 1 TRISB4 1 0 :1:4 
+`uc 1 TRISB5 1 0 :1:5 
+`uc 1 TRISB6 1 0 :1:6 
+`uc 1 TRISB7 1 0 :1:7 
+]
+"1841
+[s S282 . 1 `uc 1 RB0 1 0 :1:0 
+`uc 1 RB1 1 0 :1:1 
+`uc 1 RB2 1 0 :1:2 
+`uc 1 RB3 1 0 :1:3 
+`uc 1 RB4 1 0 :1:4 
+`uc 1 RB5 1 0 :1:5 
+`uc 1 RB6 1 0 :1:6 
+`uc 1 RB7 1 0 :1:7 
+]
+[u S291 . 1 `S273 1 . 1 0 `S282 1 . 1 0 ]
+[v _TRISBbits TRISBbits `VES291  1 e 1 @3987 ]
+"2031
+[v _TRISC TRISC `VEuc  1 e 1 @3988 ]
+[s S313 . 1 `uc 1 TRISC0 1 0 :1:0 
+`uc 1 TRISC1 1 0 :1:1 
+`uc 1 TRISC2 1 0 :1:2 
+`uc 1 TRISC3 1 0 :1:3 
+`uc 1 TRISC4 1 0 :1:4 
+`uc 1 TRISC5 1 0 :1:5 
+`uc 1 TRISC6 1 0 :1:6 
+`uc 1 TRISC7 1 0 :1:7 
+]
+"2063
+[s S322 . 1 `uc 1 RC0 1 0 :1:0 
+`uc 1 RC1 1 0 :1:1 
+`uc 1 RC2 1 0 :1:2 
+`uc 1 RC3 1 0 :1:3 
+`uc 1 RC4 1 0 :1:4 
+`uc 1 RC5 1 0 :1:5 
+`uc 1 RC6 1 0 :1:6 
+`uc 1 RC7 1 0 :1:7 
+]
+[u S331 . 1 `S313 1 . 1 0 `S322 1 . 1 0 ]
+[v _TRISCbits TRISCbits `VES331  1 e 1 @3988 ]
+"2253
+[v _OSCTUNE OSCTUNE `VEuc  1 e 1 @3995 ]
+"5592
+[v _OSCCON OSCCON `VEuc  1 e 1 @4051 ]
+[s S45 . 1 `uc 1 . 1 0 :7:0 
+`uc 1 NOT_RBPU 1 0 :1:7 
+]
+"6135
+[s S48 . 1 `uc 1 RBIP 1 0 :1:0 
+`uc 1 . 1 0 :1:1 
+`uc 1 TMR0IP 1 0 :1:2 
+`uc 1 . 1 0 :1:3 
+`uc 1 INTEDG2 1 0 :1:4 
+`uc 1 INTEDG1 1 0 :1:5 
+`uc 1 INTEDG0 1 0 :1:6 
+`uc 1 nRBPU 1 0 :1:7 
+]
+[s S57 . 1 `uc 1 . 1 0 :7:0 
+`uc 1 RBPU 1 0 :1:7 
+]
+[u S60 . 1 `S45 1 . 1 0 `S48 1 . 1 0 `S57 1 . 1 0 ]
+[v _INTCON2bits INTCON2bits `VES60  1 e 1 @4081 ]
+"51 F:\Electronica_2021\Generico_simple.X\main.c
+[v _main main `(v  1 e 1 0 ]
+{
+"101
+} 0
+"16 F:\Electronica_2021\Generico_simple.X\Lib_mias_all/microchip_LCD/putrxlcd.c
+[v _putrsXLCD putrsXLCD `(v  1 e 1 0 ]
+{
+[v putrsXLCD@buffer buffer `*.35uc  1 p 2 1 ]
+"25
+} 0
+"16 F:\Electronica_2021\Generico_simple.X\Lib_mias_all/microchip_LCD/writdata.c
+[v _WriteDataXLCD WriteDataXLCD `(v  1 e 1 0 ]
+{
+[v WriteDataXLCD@data data `uc  1 a 1 wreg ]
+[v WriteDataXLCD@data data `uc  1 a 1 wreg ]
+"35
+[v WriteDataXLCD@data data `uc  1 a 1 0 ]
+"63
+} 0
+"50 F:\Electronica_2021\Generico_simple.X\mcc_generated_files/mcc.c
+[v _SYSTEM_Initialize SYSTEM_Initialize `(v  1 e 1 0 ]
+{
+"55
+} 0
+"55 F:\Electronica_2021\Generico_simple.X\mcc_generated_files/pin_manager.c
+[v _PIN_MANAGER_Initialize PIN_MANAGER_Initialize `(v  1 e 1 0 ]
+{
+"90
+} 0
+"57 F:\Electronica_2021\Generico_simple.X\mcc_generated_files/mcc.c
+[v _OSCILLATOR_Initialize OSCILLATOR_Initialize `(v  1 e 1 0 ]
+{
+"63
+} 0
+"8 F:\Electronica_2021\Generico_simple.X\Lib_mias_all/microchip_LCD/LCD_inicio.c
+[v _LCD_inicio LCD_inicio `(v  1 e 1 0 ]
+{
+"15
+} 0
+"20 F:\Electronica_2021\Generico_simple.X\Lib_mias_all/microchip_LCD/openxlcd.c
+[v _OpenXLCD OpenXLCD `(v  1 e 1 0 ]
+{
+[v OpenXLCD@lcdtype lcdtype `uc  1 a 1 wreg ]
+[v OpenXLCD@lcdtype lcdtype `uc  1 a 1 wreg ]
+"32
+[v OpenXLCD@lcdtype lcdtype `uc  1 a 1 3 ]
+"99
+} 0
+"13 F:\Electronica_2021\Generico_simple.X\Lib_mias_all/microchip_LCD/wcmdxlcd.c
+[v _WriteCmdXLCD WriteCmdXLCD `(v  1 e 1 0 ]
+{
+[v WriteCmdXLCD@cmd cmd `uc  1 a 1 wreg ]
+[v WriteCmdXLCD@cmd cmd `uc  1 a 1 wreg ]
+"32
+[v WriteCmdXLCD@cmd cmd `uc  1 a 1 1 ]
+"63
+} 0
+"69 F:\Electronica_2021\Generico_simple.X\Lib_mias_all/microchip_LCD/delay_xlcd.c
+[v _DelayPORXLCD DelayPORXLCD `(v  1 e 1 0 ]
+{
+"72
+} 0
+"13 F:\Electronica_2021\Generico_simple.X\Lib_mias_all/microchip_LCD/setddram.c
+[v _SetDDRamAddr SetDDRamAddr `(v  1 e 1 0 ]
+{
+[v SetDDRamAddr@DDaddr DDaddr `uc  1 a 1 wreg ]
+[v SetDDRamAddr@DDaddr DDaddr `uc  1 a 1 wreg ]
+"32
+[v SetDDRamAddr@DDaddr DDaddr `uc  1 a 1 1 ]
+"60
+} 0
+"11 F:\Electronica_2021\Generico_simple.X\Lib_mias_all/microchip_LCD/busyxlcd.c
+[v _BusyXLCD BusyXLCD `(uc  1 e 1 0 ]
+{
+"57
+} 0
+"62 F:\Electronica_2021\Generico_simple.X\Lib_mias_all/microchip_LCD/delay_xlcd.c
+[v _DelayFor18TCY DelayFor18TCY `(v  1 e 1 0 ]
+{
+"66
+} 0
+"75
+[v _DelayXLCD DelayXLCD `(v  1 e 1 0 ]
+{
+"78
+} 0

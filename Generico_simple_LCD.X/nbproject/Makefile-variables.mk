@@ -1,0 +1,27 @@
+#
+# Generated - do not edit!
+#
+# NOCDDL
+#
+CND_BASEDIR=`pwd`
+# Generica_LCD_C90 configuration
+CND_ARTIFACT_DIR_Generica_LCD_C90=dist/Generica_LCD_C90/production
+CND_ARTIFACT_NAME_Generica_LCD_C90=Generico_simple_LCD.X.production.hex
+CND_ARTIFACT_PATH_Generica_LCD_C90=dist/Generica_LCD_C90/production/Generico_simple_LCD.X.production.hex
+CND_PACKAGE_DIR_Generica_LCD_C90=${CND_DISTDIR}/Generica_LCD_C90/package
+CND_PACKAGE_NAME_Generica_LCD_C90=genericosimplelcd.x.tar
+CND_PACKAGE_PATH_Generica_LCD_C90=${CND_DISTDIR}/Generica_LCD_C90/package/genericosimplelcd.x.tar
+# Generica_LCD_C99 configuration
+CND_ARTIFACT_DIR_Generica_LCD_C99=dist/Generica_LCD_C99/production
+CND_ARTIFACT_NAME_Generica_LCD_C99=Generico_simple_LCD.X.production.hex
+CND_ARTIFACT_PATH_Generica_LCD_C99=dist/Generica_LCD_C99/production/Generico_simple_LCD.X.production.hex
+CND_PACKAGE_DIR_Generica_LCD_C99=${CND_DISTDIR}/Generica_LCD_C99/package
+CND_PACKAGE_NAME_Generica_LCD_C99=genericosimplelcd.x.tar
+CND_PACKAGE_PATH_Generica_LCD_C99=${CND_DISTDIR}/Generica_LCD_C99/package/genericosimplelcd.x.tar
+# default configuration
+CND_ARTIFACT_DIR_default=dist/default/production
+CND_ARTIFACT_NAME_default=Generico_simple_LCD.X.production.hex
+CND_ARTIFACT_PATH_default=dist/default/production/Generico_simple_LCD.X.production.hex
+CND_PACKAGE_DIR_default=${CND_DISTDIR}/default/package
+CND_PACKAGE_NAME_default=genericosimplelcd.x.tar
+CND_PACKAGE_PATH_default=${CND_DISTDIR}/default/package/genericosimplelcd.x.tar
