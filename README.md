@@ -11,6 +11,10 @@ Adaptado por: Rommel Contreras - _rommeljose@gmail.com_
 > módulo configura los pines de E/S del microcontrolador, configura la pantalla
 > LCD para modi 4 o de 8 bits y proporciona un API para diferentes funciones del LCD 
 >> **ver:** [Como_Usar_librería.pdf](.doc/guia_de_uso.pdf).
+
+>>**Librería en:** [`.Lib_mias_all\microchip_LCD`](./Generico_simple_LCD.X/Lib_mias_all/microchip_LCD)
+
+LCD 2x16 tipo Hitachi HD44780---> ![LCD 2x16 tipo HD44780](./Generico_simple_LCD.X/Lib_mias_all/LCD2x16.jpg)
   
 ## La Librería dmite las siguientes características:
 
@@ -56,7 +60,7 @@ Adaptado por: Rommel Contreras - _rommeljose@gmail.com_
 
 > Las versiones pre compiladas de estas funciones utilizan asignaciones de pines predeterminadas
 > que se pueden cambiar redefiniendo las siguientes asignaciones de macros en el archivo xlcd.h, 
-> que se encuentra en el subdirectorio: ...\Generico_simple_LCD.X\Lib_mias_all\microchip_LCD. 
+> que se encuentra en el subdirectorio: `.\Generico_simple_LCD.X\Lib_mias_all\microchip_LCD`. 
 > El archivo de encabezado `xlcd.h`, hay que incluirlo en el proyecto.
 
 ***
